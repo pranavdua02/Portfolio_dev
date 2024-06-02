@@ -21,7 +21,7 @@ const About = () => {
           href={Resume}
           target="_blank"
           rel="noreferrer"
-          download="Dibyam Jalan Resume"
+          download="Pranav Dua Resume"
         >
           <button className="bg-white text-[15px] lg:text-[22px] flex text-indigo-400 px-3 py-2 lg:px-5 lg:py-3 rounded-full hover:text-white hover:bg-[#9893da]">
             Resume
