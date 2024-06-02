@@ -17,7 +17,7 @@ export default function Contact() {
         </p>
         <a
           className="flex-1 flex items-center justify-center"
-          href="mailto:dibyam1jalan@gmail.com"
+          href="mailto:duapranav11@gmail.com"
         >
           <button className="flex text-[22px] border-2 border-[#5be9b9] text-[#5be9b9] px-5 py-3 rounded-full hover:text-[#141c3a] hover:bg-[#5be9b9]">
             Mail me at

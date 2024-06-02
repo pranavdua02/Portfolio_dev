@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import  toon from "../assets/toon.jpg"
 
 export default function Hero() {
   return (
@@ -39,11 +40,11 @@ export default function Hero() {
       </h1>
       <div className="pt-10 flex-col flex items-center">
         <img
-          className="h-80 w-80"
-          src="https://mattfarley.ca/img/mf-avatar.svg"
+          className="h-80 w-80 rounded-full object-cover"
+          src={toon} 
         />
       </div>
-      <div className="pt-[8rem] lg:w-[67rem]">
+      <div className="pt-[8rem] lg:w-[67rem] ">
         <img src="https://mattfarley.ca/img/hero-devices.svg" />
       </div>
     </div>
